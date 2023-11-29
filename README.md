@@ -61,5 +61,7 @@ Configure the import alias for utils: … @/lib/utils
 
 
 
-npx shadcn-ui@latest add button skeleton accordion separator
-npm install @clerk/nextjs usekooks-ts
+npx shadcn-ui@latest add button skeleton accordion separator sheet
+
+
+npm install @clerk/nextjs usekooks-ts zustand
