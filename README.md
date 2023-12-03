@@ -61,7 +61,10 @@ Configure the import alias for utils: … @/lib/utils
 
 
 
-npx shadcn-ui@latest add button skeleton accordion separator sheet
+npx shadcn-ui@latest add button skeleton accordion separator sheet tooltip popover label
+
+npx prisma init
+npx prisma generate
 
 
-npm install @clerk/nextjs usekooks-ts zustand
+npm install @clerk/nextjs usekooks-ts zustand -D prisma @prisma/client zod sonner date-fns @tanstack/react-query @radix-ui/react-avatar @radix-ui/react-label stripe unsplash-js lodash -D @types/lodash @hello-pangea/dnd
