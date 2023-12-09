@@ -63,6 +63,15 @@ npx prisma generate
 npx prisma db push
 ```
 
+Stripe:
+
+```bash
+stripe login
+stripe listen --forward-to localhost:3000/api/webhook
+```
+
+
+
 After installing the dependencies and .env, run the development server:
 
 ```bash
