@@ -1,5 +1,7 @@
-# Property 'className' does not exist on type 'DialogPortalProps'.ts(2339)
+# Type error: Property 'className' does not exist on type 'DialogPortalProps'.
+components/ui/sheet.tsx:17:3
 
-use:
+fix:
 "@radix-ui/react-dialog": "1.0.4",
+https://github.com/shadcn-ui/ui/issues/1595
 
